@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:title="Home"/>
+    <item android:id="@+id/vp" android:title="View Plans"/>
+    <item android:id="@+id/reg" android:title="Edit Profile"/>
+    <item android:id="@+id/contactus" android:title="Contact Us"/>
+    <item android:id="@+id/fbb" android:title="Feedback"/>
+    <item android:id="@+id/logout" android:title="Logout"/>
+</menu>

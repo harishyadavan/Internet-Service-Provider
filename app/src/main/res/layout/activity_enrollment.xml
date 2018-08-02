@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/child"
+    tools:context="com.example.varundavidpulla.internet.enrollment">
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/Dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:hint="Dob"
+            />
+
+        <RadioButton
+            android:layout_margin="15dp"
+            android:id="@+id/male"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="Male"
+
+
+
+            />
+        <RadioButton
+            android:layout_margin="15dp"
+            android:id="@+id/Female"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="FeMale"
+
+
+
+            />
+
+
+        <Spinner
+            android:layout_margin="15dp"
+            android:id="@+id/shift"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/spinnerItems"
+            />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>

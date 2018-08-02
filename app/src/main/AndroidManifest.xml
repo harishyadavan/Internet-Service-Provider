@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.varundavidpulla.daycareproj">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Internet Service"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.varundavidpulla.internet.welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.varundavidpulla.internet.admin" />
+        <activity android:name="com.example.varundavidpulla.internet.ProfileActivity" />
+        <activity android:name="com.example.varundavidpulla.internet.MainActivity" />
+        <activity android:name="com.example.varundavidpulla.internet.log" />
+        <activity android:name="com.example.varundavidpulla.internet.payment" />
+        <activity android:name="com.example.varundavidpulla.internet.enrollment" />
+        <activity android:name="com.example.varundavidpulla.internet.registration" />
+        <activity android:name="com.example.varundavidpulla.internet.plans" />
+        <activity android:name="com.example.varundavidpulla.internet.plan2" />
+        <activity android:name="com.example.varundavidpulla.internet.plan3" />
+        <activity android:name="com.example.varundavidpulla.internet.plan4" />
+        <activity android:name="com.example.varundavidpulla.internet.home" />
+        <activity android:name="com.example.varundavidpulla.internet.contactus" />
+        <activity android:name="com.example.varundavidpulla.internet.success" />
+        <activity android:name="com.example.varundavidpulla.internet.plan" />
+        <activity android:name="com.example.varundavidpulla.internet.feedback" />
+        <activity android:name="com.example.varundavidpulla.internet.thankpay" />
+        <activity android:name="com.example.varundavidpulla.internet.thankfeed"></activity>
+    </application>
+
+</manifest>
